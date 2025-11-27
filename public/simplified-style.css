@@ -7,11 +7,11 @@
   
   --post-bg: white;
   --hover-color: #FFE1C6;
-  --post-text: #4E223D;
+  --post-text: #16193E;
   --button-bg: #FFD2E0;
-  --border-color: #FB8AAB;
-  --accent-color: #DA587E;
-  --border-shadow: #DA587E80;
+  --border-color: #6CA5BF;
+  --accent-color: #16193E;
+  --border-shadow: #17326C;
   
   /*these next two colors are for when you highlight text on the page*/
   --selected-bg: #bde0ff;
