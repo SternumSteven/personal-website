@@ -1,33 +1,33 @@
 /* these are the site colors, replace them with anything you want!
  * this version is highly customizable... use simple-style.css for quicker editing if you don't care too much about the specifics!*/
 :root {
-  --site-bg: url("images/Artboard\ 1.png");
+  --site-bg: url("images/tile.png");
   /*or like this for just a solid color:*/
   /*--site-bg: #FFE1C6; */
   
   --post-bg: white;
-  --post-text: #4E223D;
-  --post-header-text: #DA587E;
-  --border-color: #FB8AAB;
-  --border-shadow: #DA587E80;
+  --post-text: #16193E;
+  --post-header-text: #17326C;
+  --border-color: #6CA5BF;
+  --border-shadow: #273D6C;
   
-  --sidebar-text: #4E223D;
-  --sidebar-bg: #FB8AAB;
+  --sidebar-text: #16193E;
+  --sidebar-bg: #6CA5BF;
   --sidebar-button-bg: #FFD2E0;
   --sidebar-button-bg-hover: #FFE1C6;
-  --sidebar-button-text: #4E223D;
-  --sidebar-button-text-hover: #DA587E;
-  --sidebar-border-color: #DA587E;
+  --sidebar-button-text: #16193E;
+  --sidebar-button-text-hover: #17326C;
+  --sidebar-border-color: #17326C;
   
  /*this is for the collapsible sections at the top (status and tag filters)*/
-  --pinned-text: #4E223D;
+  --pinned-text: #16193E;
   --pinned-bg: #FFD2E0;
   /*tag filter button colors*/
   --button-bg: #FFD2E0;
   --button-bg-hover: #FFE1C6;
-  --button-bg-selected: #FB8AAB;
-  --button-text: #4E223D;
-  --button-border-color: #DA587E;
+  --button-bg-selected: #6CA5BF;
+  --button-text: #16193E;
+  --button-border-color: #17326C;
   
   /*these next two colors are for when you highlight text on the page*/
   --selected-bg: #bde0ff;
