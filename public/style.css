@@ -13,18 +13,18 @@
   
   --sidebar-text: #16193E;
   --sidebar-bg: #6CA5BF;
-  --sidebar-button-bg: #FFD2E0;
-  --sidebar-button-bg-hover: #FFE1C6;
+  --sidebar-button-bg: #7cacc2;
+  --sidebar-button-bg-hover: #708d9a;
   --sidebar-button-text: #16193E;
   --sidebar-button-text-hover: #17326C;
   --sidebar-border-color: #17326C;
   
  /*this is for the collapsible sections at the top (status and tag filters)*/
   --pinned-text: #16193E;
-  --pinned-bg: #FFD2E0;
+  --pinned-bg: #7cacc2;
   /*tag filter button colors*/
-  --button-bg: #FFD2E0;
-  --button-bg-hover: #FFE1C6;
+  --button-bg: #7cacc2;
+  --button-bg-hover: #708d9a;
   --button-bg-selected: #6CA5BF;
   --button-text: #16193E;
   --button-border-color: #17326C;
