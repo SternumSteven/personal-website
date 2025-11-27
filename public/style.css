@@ -41,18 +41,18 @@
  * if you don't include these files in a "fonts" folder on your website, your browser will try to substitute the next closest thing...
 */
 @font-face {
-  font-family: Nunito;
-  src: url('/fonts/Nunito-Black.ttf');
+  font-family: GenericTechno;
+  src: url('/fonts/GenericTechno.otf');
   font-weight: bold;
 }
 @font-face {
-    font-family: Atkinson Hyperlegible;
-    src: url('/fonts/AtkinsonHyperlegible-Regular.ttf');
+    font-family: Basement Grotesque;
+    src: url('/fonts/BasementGrotesque-Black_v1.202.otf');
 }
 
 @font-face {
-    font-family: Atkinson Hyperlegible;
-    src: url('/fonts/AtkinsonHyperlegible-Bold.ttf');
+    font-family: Basement Grotesque;
+    src: url('/fonts/BasementGrotesque-Black_v1.202.otf');
     font-weight: bold;
 }
 
