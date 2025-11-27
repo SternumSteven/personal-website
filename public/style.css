@@ -13,7 +13,7 @@
   
   --sidebar-text: #16193E;
   --sidebar-bg: #6CA5BF;
-  --sidebar-button-bg: #7cacc2;
+  --sidebar-button-bg: #868BD5;
   --sidebar-button-bg-hover: #708d9a;
   --sidebar-button-text: #16193E;
   --sidebar-button-text-hover: #17326C;
@@ -21,9 +21,9 @@
   
  /*this is for the collapsible sections at the top (status and tag filters)*/
   --pinned-text: #16193E;
-  --pinned-bg: #7cacc2;
+  --pinned-bg: #868BD5;
   /*tag filter button colors*/
-  --button-bg: #7cacc2;
+  --button-bg: #868BD5;
   --button-bg-hover: #708d9a;
   --button-bg-selected: #6CA5BF;
   --button-text: #16193E;
