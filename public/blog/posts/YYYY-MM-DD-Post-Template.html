@@ -3,15 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 
-	<title>About</title>
+	<title>{{ YOUR BLOG POST TITLE HERE }}</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="./resources/main.css" rel="stylesheet" type="text/css" media="all">
+	<link href="../resources/main.css" rel="stylesheet" type="text/css" media="all">
 
-	<link rel="icon" href="./resources/favicon.ico">
+	<link rel="icon" href="../resources/favicon.ico">
 </head>
-
-
 
 <body>
 	<a id="skip-link" href="#content">Skip to main content</a>
@@ -23,21 +21,26 @@
 
 
 
-		<main id="content">
-			<h1>About me</h1>
-			<p>Write more info about you and/or your blog here.</p>
-		</main><!--#content end-->
+		<article id="content">
+			<header>
+				<h1>{{ YOUR BLOG POST TITLE HERE }}</h1>
+				<time id="post-date"></time>
+				<ul id="post-tags" class="flex-list"></ul>
+			</header>
+			{{ YOUR BLOG POST CONTENT GOES HERE }}
+		</article<!--#content end-->
 
 
 
 		<footer id="footer">
 			<a href="#content" rel="return">Return to top</a>
+			<nav id="post-nav"></nav><!--#post-nav end-->
 			<ul id="contact-links" class="flex-list"></ul><!--#contact-links end-->
 		<footer><!--#footer end-->
 	</div> <!--#container end-->
 
 
 
-	<script src="./resources/main.js"></script>
+	<script src="../resources/main.js"></script>
 </body>
 </html>
