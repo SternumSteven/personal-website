@@ -2,6 +2,7 @@
  * this version is highly customizable... use simple-style.css for quicker editing if you don't care too much about the specifics!*/
 :root {
   --site-bg: url("images/tile.png");
+   background-repeat: repeat;
   /*or like this for just a solid color:*/
   /*--site-bg: #FFE1C6; */
   
