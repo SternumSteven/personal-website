@@ -32,17 +32,17 @@ const messagesOn = true; // whether or not to show a random message in the heade
 
 // links listed in header (nav) and footer (contact)
 const navLinks = [
-{	"name": `BLOG NAME`,	"filename": `index`,	},
+{	"name": `A2Adam's Blog`,	"filename": `index`,	},
 {	"name": `About`,		"filename": `about`,	},
 {	"name": `Tags`,			"filename": `tags`,		},
 {	"name": `Archive`,		"filename": `archive`,	},
 ];
 const contactLinks = [
-{	"name": `Neocities`,	"url": `https://example.com/`,	},
-{	"name": `Twitter`,		"url": `https://example.com/`,	},
-{	"name": `Codeberg`,		"url": `https://example.com/`,	},
-{	"name": `Itch`,			"url": `https://example.com/`,	},
-{	"name": `email`,		"url": `contact@example.com`,	},
+{	"name": `🢀 Return home`,	"url": `https://a2adam.neocities.org/`,	},
+{	"name": `Blacksky`,		"url": `https://blacksky.community/profile/did:plc:vefo37noxm6uxzc5zmhudz2w`,	},
+{	"name": `Instagram`,		"url": `http://instagram.com/a2adamart`,	},
+{	"name": `YouTube`,			"url": `https://www.youtube.com/@A2Adam`,	},
+{	"name": `email`,		"url": `mailto:adamlauture@gmail.com`,	},
 ];
 
 
