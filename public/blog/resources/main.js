@@ -32,17 +32,17 @@ const messagesOn = true; // whether or not to show a random message in the heade
 
 // links listed in header (nav) and footer (contact)
 const navLinks = [
-{	"name": `A2Adam's Blog`,	"filename": `index`,	},
+{	"name": `BLOG NAME`,	"filename": `index`,	},
 {	"name": `About`,		"filename": `about`,	},
 {	"name": `Tags`,			"filename": `tags`,		},
 {	"name": `Archive`,		"filename": `archive`,	},
 ];
 const contactLinks = [
-{	"name": `🢀 Return home`,	"url": `https://a2adam.neocities.org/`,	},
-{	"name": `Blacksky`,		"url": `https://blacksky.community/profile/did:plc:vefo37noxm6uxzc5zmhudz2w`,	},
-{	"name": `Instagram`,		"url": `http://instagram.com/a2adamart`,	},
-{	"name": `YouTube`,			"url": `https://www.youtube.com/@A2Adam`,	},
-{	"name": `email`,		"url": `mailto:adamlauture@gmail.com`,	},
+{	"name": `Neocities`,	"url": `https://example.com/`,	},
+{	"name": `Twitter`,		"url": `https://example.com/`,	},
+{	"name": `Codeberg`,		"url": `https://example.com/`,	},
+{	"name": `Itch`,			"url": `https://example.com/`,	},
+{	"name": `email`,		"url": `contact@example.com`,	},
 ];
 
 
@@ -52,28 +52,26 @@ const contactLinks = [
 =============== */
 
 const posts = [
-
-{
-	"title": `Contempt for the Creator - Reflecting on Video Essay / Long Form Analysis Culture`,
-	"filename": `2025-11-11-contempt-for-the-creator.html`,
-	"tags": [`media opinions`, `article`],
-},
-{
-	"title": `Virtua Insanity, or How I Feel About 3D Fighters As A Newcomer`,
-	"filename": `2025-09-23-virtua-insanity.html`,
-	"tags": [`media opinions`, `article`, gaming],
-},
 {
 	"title": `Toonami Rewind - What's Old Is New Again... Again`,
 	"filename": `2024-08-19-toonami-rewind-whats-old-is-new-again.html`,
-	"tags": [`media opinions`, `article`, toonami],
+	"tags": [`toonami`, `anime`, `media opinions`],
 },
 {
 	"title": `Toonami Rewind - A Failed Experiment`,
 	"filename": `2024-12-21-toonami-rewind-a-failed-experiment.html`,
-	"tags": [`media opinions`, `article`, toonami],
+	"tags": [`toonami`, `anime`, `media opinions`],
 },
-
+{
+	"title": `Virtua Insanity`,
+	"filename": `2025-09-23-virtua-insanity.html`,
+	"tags": [`video games`, `media opinions`],
+},
+{
+	"title": `Contempt For The Creator`,
+	"filename": `2025-11-11-contempt-for-the-creator.html`,
+	"tags": [`article`, `video essays`],
+},
 ];
 
 
