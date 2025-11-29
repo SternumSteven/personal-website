@@ -1,339 +1,175 @@
-@layer reset, defaults, themes, utilities;
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
 
-
-
-/* ===========
-	THEMES
-=========== */
-
-@layer themes {
-
-:root {
-	--fore-colour: #222;
-	--back-colour: white;
-	--hot-colour: crimson;
-	--cold-colour: mediumBlue;
-}
-@media (prefers-color-scheme: dark) {
-	:root {
-		--fore-colour: white;
-		--back-colour: #282828;
-		--hot-colour: darkOrange;
-		--cold-colour: powderBlue;
-	}
-}
-
-/* =========== END THEMES */ }
-
-
-
-/* ==========
-	RESET
-========== */
-
-@layer reset {
-
-*,
-::before,
-::after {
-	box-sizing: border-box;
-}
-
-/* ========== END RESET */ }
-
-
-
-/* ==============
-	UTILITIES
-============== */
-
-@layer utilities {
-
-.uppercase {
-	text-transform: uppercase;
-}
-.lowercase {
-	text-transform: lowercase;
-}
-.undo-case {
-	text-transform: none;
-}
-
-/* ============== END UTILITIES */ }
-
-
-
-/* ==============
-	DEFAULTS
-============== */
-
-@layer defaults {
-
-/* STRUCTURE */
-
-:root {
-	--gap: 1.5rem;
-	--line: 2px solid var(--fore-colour);
-	--interface-font-size: 1.2em;
-	--meta-font-size: 0.8em;
-}
 body {
-	font-size: 18px;
-	font-family: sans-serif;
-	margin: 0;
-	color: var(--fore-colour);
-	background-color: var(--back-colour);
-	line-height: 1.5;
-}
-#skip-link {
-	position: absolute;
-	inset-block-start: 0;
-	inset-inline-start: 0;
-	color: var(--back-colour);
-	background-color: var(--fore-colour);
-	clip-path: inset(50%);
-	&:focus {
-		clip-path: unset;
-	}
-}
-#container {
-	margin: 3rem auto;
-	max-inline-size: 750px;
-	border-inline: var(--line);
-	& > * {
-		padding-inline: 1rem;
-	}
-}
-.flex-list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding-inline-start: 0;
-	list-style-type: "";
+  background-color: #dfe4ee;
+  background-image: url('../images/bg_y2k.png');
+  background-repeat: no-repeat;
+	background-position: 50% -240px;
+	background-attachment: fixed;
+  font-size: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0;
 }
 
-/* HEADER */
-
-#header {
-	color: var(--back-colour);
-	background-color: var(--fore-colour);
-	* {
-		margin-block: 0;
-	}
+p {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
 }
-#main-nav {
-	a {
-		display: block;
-		padding-block-start: 0.3em;
-		padding-block-end: 0.2em;
-		padding-inline: 0.4em;
-		font-size: var(--interface-font-size);
-		color: var(--back-colour);
-		text-decoration: unset;
-		&:hover {
-			background-color: var(--hot-colour);
-		}
-	}
-}
-#header-message {
-	padding-block-start: 0.3rem;
-	padding-block-end: 0.2rem;
-	padding-inline: 0.5rem;
-	border-block-start: var(--line);
-	border-color: var(--back-colour);
-	&::before {
-		content: "\25c9 \a0"; /* fisheye + non-breaking space */
-		color: var(--hot-colour);
-	}
-	a {
-		color: inherit;
-		background-color: inherit;
-	}
+#content li {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
 }
 
-/* TEXT */
-:is(h1, h2, h3) + * {
-	margin-block-start: 0;
+a:hover, a:focus {
+  background-color: #ffbedb;
 }
-h1 {
-	margin-block-start: 1rem;
-	margin-block-end: 0;
-}
-h2 {
-	margin-block-start: 3rem;
-	margin-block-end: 0.25rem;
-}
-h3 {
-	margin-block-start: 2rem;
-	margin-block-end: 0.25rem;
-}
-details {
-	margin-block: 1rem;
-	margin-inline-start: var(--gap);
-}
-summary {
-	cursor: pointer;
-	font-weight: bold;
-	margin-inline-start: -1rem;
-	& + * {
-		margin-block-start: 0;
-	}
-}
-a:link {
-	color: var(--hot-colour);
-}
-a:visited {
-	color: var(--cold-colour);
-}
-a:hover {
-	color: var(--back-colour);
-	&:link {
-		background-color: var(--hot-colour);
-	}
-	&:visited {
-		background-color: var(--cold-colour);
-	}
-}
-code {
-	font-size: 0.8em;
-}
-.code-block {
-	display: block;
-	margin-block: 1rem;
-	color: var(--back-colour);
-	background-color: var(--fore-colour);
-	overflow-x: auto;
-	white-space: pre;
-	tab-size: 4ch;
-}
-blockquote {
-	margin-inline: var(--gap);
-}
-::marker {
-	color: var(--hot-colour);
-}
-
-/* MEDIA */
 
 img {
-	display: block;
-	margin-inline: auto;
+  max-width: 100%;
+  height: auto;
 }
-figure {
-	margin-inline: var(--gap);
+.right {
+  float: right;
+  margin-left: 1em;
 }
-figcaption {
-	text-align: center;
-	blockquote + &::before {
-		content: "\2014 \a0"; /* em dash + non-breaking space */
-	}
+.left {
+  float: left;
+  margin-right: 1em;
 }
-.gallery {
-	--gallery-cols: 1;
-	display: grid;
-	grid-template-columns: repeat(var(--gallery-cols), 1fr);
-	gap: calc(2rem / var(--gallery-cols));
-	padding-left: 0;
-	list-style-type: "";
-	&:has(:nth-child(2)) {
-		--gallery-cols: 2;
-	}
-	&:has(:nth-child(5)) {
-		--gallery-cols: 3;
-	}
-	&:has(:nth-child(10)) {
-		--gallery-cols: 4;
-	}
-	img {
-		height: 100%;
-		width: 100%;
-		aspect-ratio: 1;
-		object-fit: cover;
-	}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
-iframe {
-	max-inline-size: 100%;
-	display: block;
-	margin-block: 1rem;
-	border: var(--line);
+@media only screen and (min-width: 600px) {
+  .small {
+  max-width: 60%;
+  height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
-/* POST LISTS */
-
-.post-list {
-	padding-inline-start: var(--gap);
-	list-style-type: "";
-	text-indent: calc(-1 * var(--gap));
-	font-size: var(--interface-font-size);
-}
-#tag-index {
-	padding-inline-start: 0;
-	list-style-type: "";
-	details {
-		margin-block: 0;
-	}
-	[open] {
-		margin-block-end: 1rem;
-	}
-	summary {
-		font-size: var(--interface-font-size);
-	}
+/*The horizontal rule appears at the top of the footer to visually separate the footer
+from the content. You can also use <hr> to divide sections in the content!*/
+hr {
+  border-width: 5px 0 0 0;
+  border-style: dotted;
+  border-color: #ff75af; 
 }
 
-/* POSTS */
-
-article > header {
-	margin-block-end: 1rem;
-	padding-block-end: 1rem;
-	border-block-end: var(--line);
-	h1 {
-		margin-block-end: 0.5rem;
-		font-size: 2.2rem;
-	}
-	& + * {
-		margin-block-start: 0;
-	}
-}
-#post-tags {
-	margin-block: 0;
-	& > li:not(:last-child)::after {
-		content: ",\a0"; /* comma + non-breaking space */
-	}
-	a::before {
-		content: "#";
-	}
-}
-#post-nav > ul {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: var(--gap);
-	padding-inline-start: 0;
-	list-style-type: "";
-	& > :first-child > a::before {
-		content: "\2190 \a0"; /* left arrow + non-breaking space */
-	}
-	& > :last-child {
-		text-align: right;
-		a::after {
-			content: "\2192 \a0"; /* right arrow + non-breaking space */
-		}
-	}
+/*#CONTAINER is the rectangle that has contains everything but the background!*/
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 700px;
+	background-color: white;
+  color: #214457; 
+  border-radius: 30px 30px 20px 20px;
+  overflow: hidden;
+  box-shadow: 0 -2px 10px 0 #8da5cb inset;
 }
 
-/* FOOTER */
+#content {
+  padding: 10px 5% 20px 5%;
+}
 
+
+/*HEADER STYLE*/
+#header {
+  position: relative; /*doesn't change this element, but needed for the pink ring's positioning*/
+  background-color: #23a4f8;
+  padding: 0 5%;
+  border-color: #ff75af;
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  background-clip: padding-box;
+  box-shadow: 0 -2px 12px 0 #1a80e4 inset;
+  /*This is a workaround for the fact that overflow:hidden on parent element apparently didn't work in older versions of firefox:
+  https://stackoverflow.com/questions/3714862/forcing-child-to-obey-parents-curved-borders-in-css*/
+  -moz-border-radius: 20px; 
+}
+#header ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+#header li {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-bottom: 0.7em;
+  margin-top: 0.7em;
+}
+#header li a {
+  color: white;
+  background-color: #1b548e;
+  border-radius: 25px;
+  border: 3px solid #7cd8ff;
+  padding: 6px 30px;
+  box-shadow: 0 -2px 12px 0 #23a4f8 inset;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#header li a:hover {
+  background-color: #1f64aa;
+  text-decoration: none;
+}
+#header li a:active {
+  background-color: #ec4d90;
+  text-decoration: none;
+  box-shadow: 0 -2px 12px 0 #fe83ff inset;
+}
+/*Floating ring*/
+#header:after {
+    position: absolute;
+    right: 5%;
+    bottom: -27px;
+    content: '';
+    background-color: #ffd6e7;
+    box-shadow: 0 -1px 8px 0 #ffeaf3 inset;
+    border-radius: 50%;
+    border: 5px solid #ff75af;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+}
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+/*FOOTER STYLE*/
 #footer {
-	padding-block-start: 1rem;
-	border-block: var(--line);
-	font-size: var(--meta-font-size);
-	[rel="return"]::before {
-		content: "\2191 \a0"; /* up arrow + non-breaking space */
-	}
+  font-size: 0.8em;
+  padding: 0 5% 10px 5%;
 }
-#contact-links {
-	& > li:not(:last-child)::after {
-		content: "\a0 |\a0"; /* non-breaking space + pipe + non-breaking space */
-	}
-}
-
-/* ============== END DEFAULTS */ }
