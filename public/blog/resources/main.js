@@ -67,6 +67,11 @@ const posts = [
 	"filename": `2024-08-29-example-post`,
 	"tags": [`example post`, `first post`],
 },
+{
+	"title": `First HTML post`,
+	"filename": `2024-08-29-example-post`,
+	"tags": [`example post`, `first post`],
+},
 ];
 
 
