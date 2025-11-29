@@ -52,26 +52,28 @@ const contactLinks = [
 =============== */
 
 const posts = [
-{
-	"title": `Images and galleries`,
-	"filename": `2024-08-31-images-and-galleries`,
-	"tags": [`example post`, `images`, `guide`],
-},
-{
-	"title": `Text styles`,
-	"filename": `2024-08-30-text-styles`,
-	"tags": [`example post`, `text`, `guide`],
-},
-{
-	"title": `Example post`,
-	"filename": `2024-08-29-example-post`,
-	"tags": [`example post`, `first post`],
-},
+
 {
 	"title": `Contempt for the Creator - Reflecting on Video Essay / Long Form Analysis Culture`,
 	"filename": `2025-11-11-contempt-for-the-creator.html`,
 	"tags": [`media opinions`, `article`],
 },
+{
+	"title": `Virtua Insanity, or How I Feel About 3D Fighters As A Newcomer`,
+	"filename": `2025-09-23-virtua-insanity.html`,
+	"tags": [`media opinions`, `article`, gaming],
+},
+{
+	"title": `Toonami Rewind - What's Old Is New Again... Again`,
+	"filename": `2024-08-19-toonami-rewind-whats-old-is-new-again.html`,
+	"tags": [`media opinions`, `article`, toonami],
+},
+{
+	"title": `Toonami Rewind - A Failed Experiment`,
+	"filename": `2024-12-21-toonami-rewind-a-failed-experiment.html`,
+	"tags": [`media opinions`, `article`, toonami],
+},
+
 ];
 
 
