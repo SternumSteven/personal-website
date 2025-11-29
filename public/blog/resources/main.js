@@ -38,11 +38,11 @@ const navLinks = [
 {	"name": `Archive`,		"filename": `archive`,	},
 ];
 const contactLinks = [
-{	"name": `Return home`,	"url": `https://example.com/`,	},
-{	"name": `Blacksky`,		"url": `https://example.com/`,	},
-{	"name": `Instagram`,		"url": `https://example.com/`,	},
-{	"name": `Itch`,			"url": `https://example.com/`,	},
-{	"name": `email`,		"url": `contact@example.com`,	},
+{	"name": `Return home`,	"url": `https://a2adam.neocities.org`,	},
+{	"name": `Blacksky`,		"url": `https://blacksky.community/profile/did:plc:vefo37noxm6uxzc5zmhudz2w`,	},
+{	"name": `Instagram`,		"url": `https://instagram.com/a2adamart/`,	},
+{	"name": `YouTube`,			"url": `https://www.youtube.com/@A2Adam`,	},
+{	"name": `email`,		"url": `mailto:adamlauture@gmail.com`,	},
 ];
 
 
