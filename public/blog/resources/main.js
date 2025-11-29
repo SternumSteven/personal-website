@@ -68,9 +68,9 @@ const posts = [
 	"tags": [`example post`, `first post`],
 },
 {
-	"title": `First HTML post`,
-	"filename": `2025-11-28-first-post.html`,
-	"tags": [`example post`, `first post`],
+	"title": `Contempt for the Creator - Reflecting on Video Essay / Long Form Analysis Culture`,
+	"filename": `2025-11-11-contempt-for-the-creator.html`,
+	"tags": [`media opinions`, `article`],
 },
 ];
 
