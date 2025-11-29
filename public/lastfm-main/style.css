@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: url(tipografia/FiraCode/FiraCode-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url(tipografia/FiraCode/FiraCode-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url(tipografia/FiraCode/FiraCode-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url(tipografia/FiraCode/FiraCode-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+    font-family: 'Fira Code';
+    font-size: 13px;
+    color: white;
+    background-color: purple;
+}
+
+table {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.refresh {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a#track {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6DDAB9;
+}
+
+#heart {
+    margin: 0px 10px;
+}
