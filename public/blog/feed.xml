@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>	<title>Zoner</title>
+	<description>This is where I write about blogging with Zoner!</description>
+	<link>https://zone-builder.neocities.org/</link>
+	<atom:link href="https://zone-builder.neocities.org/" rel="self"></atom:link>
+	<language>en</language>
+	<lastBuildDate>
+Thu, 04 Dec 2025 22:03:32 +0000
+</lastBuildDate>
+	<ttl>1440</ttl>
+
+	<item>
+		<title>5. Addendum</title>
+		<description>This is a page I forgot to write about syntax and RSS descriptions!</description>
+		<link>https://zone-builder.neocities.org/posts/2021-05-08-5.-addendum.html</link>
+		<pubDate>
+			Sat, 08 May 2021 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>4. Hosting</title>
+		<description>This is a Markdown RSS description for the hosting page.</description>
+		<link>https://zone-builder.neocities.org/posts/2021-05-09-4.-hosting.html</link>
+		<pubDate>
+			Sun, 09 May 2021 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>3. Theming</title>
+		<description>Zoner uses the same CSS class names and ids as Zonelets, so any Zonelets theme automatically works!</description>
+		<link>https://zone-builder.neocities.org/posts/2021-05-10-3.-theming.html</link>
+		<pubDate>
+			Mon, 10 May 2021 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>2. Header Setup</title>
+		<description>Your header.md will traditionally serve as the navigation bar for the site. It should contain links to all the pages you'd like people to visit.</description>
+		<link>https://zone-builder.neocities.org/posts/2021-05-11-2.-header-setup.html</link>
+		<pubDate>
+			Tue, 11 May 2021 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>1. Zone Structure</title>
+		<description>A Zone is just a folder containing all the data for Zoner to build your website.</description>
+		<link>https://zone-builder.neocities.org/posts/2021-05-12-1.-zone-structure.html</link>
+		<pubDate>
+			Wed, 12 May 2021 00:00:00 +0000
+		</pubDate>
+	</item>
+
+</channel>
+</rss>
