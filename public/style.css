@@ -369,6 +369,9 @@ main {
 .tagged:has(#all:checked) article,
 .tagged:has(#intro:checked) article[class~="intro"],
 .tagged:has(#personal:checked) article[class~="personal"],
+.tagged:has(#secret:checked) article[class~="kashcast"],
+.tagged:has(#personal:checked) article[class~="guest profile"],
+.tagged:has(#personal:checked) article[class~="extra kash"],
 .tagged:has(#secret:checked) article[class~="secret"],
 .tagged:has(#art:checked) article[class~="art"] {display: inline-block;}
 
