@@ -1,0 +1,112 @@
+# Virtua Insanity, or How I Feel About 3D Fighters As A Newcomer
+
+---
+
+Virtua Fighter's issue is that in the mainstream, it doesn't get nearly as much respect that I think it deserves.
+
+Despite not being a competitive player, fighting games are absolutely a lifestyle to me. There's a sense of community, especially physically, that can get built off of numerous games, from the newest AAA ones to the classics, to games that only recently got a scene thanks to enough people being loud enough to show why their game is special. (Shout outs to the Kamen Rider Super Climax Heroes competitive scene!)
+
+However, I'll be honest. Despite being exposed to fighting games at a young age, I wasn't able to take to them until I was in college, labbing Pocket Fighter in fightcade when I should have been typing my papers. From there, especially thanks to my Vita and my scrappy laptop, I was regularly playing Skullgirls 2nd Encore and later tried out Under Night In Birth, Marvel vs Capcom 2 and 3, and Super Street Fighter 2 Turbo. I didn't get into Smash competitively until quarantine thanks to the online matchmaking service, Slippi, dropped in 2020. Even though I've been into fighting games ever since, I still hadn't been able to get into 3D fighting games, and I wanted to really think about why it felt like a different thing altogether.
+
+It's not like I never played them, but I simply had nowhere near of a level of attachment to 3d fighters. The only one I played for myself was SoulCalibur 2 on the GameCube; a lot of people speak highly for the GameCube version due to having Link, but I still remember the game fondly even if I had no idea what I was doing. It had an extravagant soundtrack, atmosphere that really enveloped you, and graphics that looked incredible. Even still, I wasn't able to understand how SoulCalibur 2 worked until I tried out the HD version on an emulator... a month ago on my Steam Deck with an arcade stick, and I wouldn't have been able to understand THAT until I tried out Virtua Fighter with more fighting game experience, and not just fumbling about on an old SEGA PC demo disc (which I'm sure had [Virtua Fighter PC'](https://segaretro.org/Virtua_Fighter_PC?ref=adamlauture.com)s demo, a game that is a port of the Saturn's V[irtua Fighter Remix](https://segaretro.org/Virtua_Fighter_Remix?ref=adamlauture.com))
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/image-3.png)
+
+People weren't talking about these games when I was 8. This one reference by James Rolfe was likely my first exposure to it.
+
+Virtua Fighter's issue is that in the mainstream, it doesn't get nearly as much respect that I think it deserves. Re-releasing your last entry from 20 years ago probably doesn't help matters, but Virtua Fighter's pure arcade goodness and sticking to those conventions seem to be pretty unpopular to other players. Lurking the Steam forums for VF5 Revo shows that a lot of people are comparing it to Tekken quite dishonorably; for some it's a matter of preference and that's understandable, but the idea that VF is bad specifically because it's not Tekken is what I disagree with.
+
+Controls are a big sticking point, it's easy to get into once you understand, but 2d fighters and 3d fighters DO operate differently. Virtua Fighter 1's controls had your main buttons being PUNCH, KICK, and GUARD. You can do different commands by pressing multiple buttons at once, like throwing the opponent with PUNCH and GUARD. Despite being a 3D fighter, there was no dodging at this point, so Virtua Fighter 1 and 2 had the infamous "moon jumping", which I'll freely admit is the hardest thing to adjust to if you're approaching VF1 now. Virtua Fighter 3 is what introduced dodging and uneven terrain, the moonjumping never came back, and things have been fairly consistent ever since, with what I feel modern VF resembles the most being ironed in when Virtua Fighter 4 [EVO] hit arcades and the Playstation 2. No matter what you're doing, Virtua Fighter relies on these 3 buttons, and even now you can play the latest entry with a control layout that only has those 3 buttons, as everything else is just a macro. In an age where fighting games experiment with simplified controls for newcomers, Virtua Fighter's layout is honestly more accessible than people may realize, and I implore people to try it out for themselves, though considering [Yu Suzuki's comments](https://segabits.com/blog/2021/03/17/yu-suzuki-and-namcos-katsuhiro-harada-talk-virtua-fighter-6-cancelled-tekken-dreamcast-title-and-tekken-x-virtua-fighter/?ref=adamlauture.com), I wouldn't be surprised if VF's controls were simplified further to welcome new players.
+
+Tekken's controls are different in which each button is a limb. LEFT LEG / LEFT HAND, RIGHT LEG / RIGHT HAND. There's a huge level of depth in the commands in Tekken, apparently the control scheme was made for simplicity's sake but I honestly find it harder to get into due to the absence of a block button. You block by simply not pressing anything and that takes a lot of getting used to for me, especially when blocking by crouching or standing in the opposite direction like a 2d fighter isn't applicable. Tekken 3 introduced the "sidestep" and 3d movement became a staple beginning with Tekken 4.
+
+[![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/image-2.png)](https://tekkenmods.com/mod/4140/kazuya-reina-jin-devil-jin-ewgf-random-sfx-project?ref=adamlauture.com)
+
+I can do a shoryuken, doing an EWGF is another story.
+
+Playing these games on the correct controllers honestly factors into the enjoyment for me; so Tekken honestly feels fine on a modern 4 button controller, but Virtua Fighter started making sense only when I bought a USB Sega Saturn controller from Retro-Bit. It simply feels CORRECT playing it like this.
+
+I should also note that I have tried out Dead or Alive 5: Last Round on Steam, and while I have minimal exposure to DoA outside of a Dreamcast demo disc that had a demo of DoA2, I do like what I played a LOT, even if it resorted in a lot of button mashing on my first run through. I have to insist that the combat still felt GOOD, snappy even. The flow of DoA's combat makes its origins as a Virtua Fighter offshoot all the more apparent to me, and because of this, it was really easy to get into my usual Jacky combos and even learn some new ones when I was able to try DoA 5: Last Round on my Steam Deck (which has Akira, Sarah, and Pai as guest characters). The biggest shame that many people may end up not noticing just how good of a game DoA feels like due to many people only knowing of the reputation it's gained over the years through sexualizing its female characters, and regardless of how you feel on that subject you can't deny that it's colored how people approach it.
+
+Things that set DoA 5 apart are the fact that the controls are PUNCH, KICK, GUARD, and THROW, as well as blocking being able to be done in a similar wat to 2D fighters, as well as the gargantuan stages. Virtua Fighter's had a 3 player system like a King of Fighters game in VF3tb, and Tekken Tag Tournament's 2 vs 2 format goes without saying, but DoA 5's tag mode is something I wish that VF could take for itself as an option. I feel like DoA's combat is more over the top and faster than VF, but being able to have a Jacky combo, and tag out to Sarah mid combo to extend that further is the sickest thing ever.
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/images.steamusercontent2.jpg)
+
+The dynamic command tree on the left really makes understanding combo theory easier for me, even if I can't pull off all the moves.
+
+While Virtua Fighter and Tekken have great looking stages they don't typically have two tier stages from what I've played and can remember. The DoA games after 2 have almost always had stages that are huge in scope, and you can push your opponent off and watch them fall dozens of stories down. I love DoA 5 for being over the top, and if you haven't seen Jacky Bryant tackle his opponent running down a crumbling building as they both fall many stories down to the pavement, causing a gas truck to explode... you simply have not lived.
+
+YEAAAAAAAAAAHHHHHH!!!!
+
+For Tekken, I think having these games being more accessible via emulation and owning a PSP / Vita gives me a chance to try out what I missed, and my misgivings are simply just minor grievances. I don't have an axe to grind with the franchise, and have grown to enjoy my time with it so far. It's consistently been graphically impressive and the music has almost always been great as well.
+
+The biggest disadvantage that Virtua Fighter has is the story, it only looks worse when Tekken's franchise has a long over arching story that is very upfront and in your face. Even as an outsider, I know that the Mishima bloodline and the Devil Gene are inherently iconic. Unless you go out of your way to do homework, you don't really know much about Virtua Fighter's story if you're just playing the games. Since the Like a Dragon devs are assisting on Virtua Fighter 6, a more blatant focus on story is all but confirmed at this point, but I do hope for more development on this because I genuinely do want to know more about this world other than Jeffry's endless beef with that damn shark.
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/image-1.png)
+
+Picture from Virtua Fighter CG Portrait Series Vol. 10: Jeffry McWild, part of a series of slideshow CDs for the Saturn released from 1995 to March 1996, before Virtua Fighter 3 released in arcades.
+
+Virtua Fighter also being in stasis for 20 years does no favors; Tekken 8 is the current Tekken game, but the latest release of 5 Revo includes tie in DLC... for Tekken 7. To be fair, the DLC has some great cosmetics, bonus music, even new UI changes, but it's emblematic of the big issue, the franchise that first wrote the book about modern 3d fighting games now has to play catch up to the franchise it inadvertently birthed.
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/image.png)
+
+This looks insanely clean, but it just makes me wish that VF5 landed on PC much earlier for it to mean something more.
+
+I think Virtua Fighter has a lot of music I think is ironic, but Tekken music hits harder when it does hit. DoA music hasn't really stuck with me yet and neither has SoulCalibur 2's, but I've played them both far less and don't listen to their music outside of the game. I'm overall more familiar with people that composed for SEGA works (Takenobu Mitsuyoshi deserves all the respect), but listening to the discography of the Ridge Racer franchise over the past 6 years made me very familiar with Namco's own sound team, and they do nothing but bangers as well.
+
+The easiest way to get Virtua Fighter's music is to get 5 REVO on Steam which comes with the entire series discography (minus anime and vocal songs) if you get the 30th anniversary DLC, my personal favorite is 3tb's soundtrack. Thankfully, both SEGA and Bandai Namco have been great at putting these soundtracks on streaming services as well, so here's a list of my favorite songs so far from Tekken:
+
+- Xiaoyu Stage (PS2 Version) - Tekken Tag Tournament, Keiichi Okabe
+- Karma (Electric Fountain) - Tekken 6, Akitata Tohyama
+- Kitsch - Tekken 4, Yuu Miyake
+- Abyss of Time (Wayang Kulit) - Tekken Tag Tournament 2, Nami Nakagawa
+- Lonesome City Jazz Party 1st - Tekken 7, Taku Inoue
+- Sparking - Tekken 5, Satoru Kosaki
+- Dist Thins Out - Tekken 6 - Keiichi Okabbe
+- Your Sunset - Tekken Tag Tournament 2 - Taku Inoue
+
+Conversely, here are my favorites in the Virtua Fighter series so far:
+
+- BEGINNING - Virtua Fighter 2
+- SARAH - Virtua Fighter 2
+- Almost all of the Virtua Fighter 3 soundtrack, I like it that much
+- BRAD - Virtua Fighter 5 Final Showdown
+- JACKY - Virtua Fighter 1
+- BEGINNING - Virtua Fighter 4 Evo
+- JACKY - Virtua Fighter 4 Evo
+- PAI - Virtua Fighter 4 Evo
+- Akira - Virtua Fighter 5 REVO
+
+I don't have much I want for the future, outside of a Virtua Fighter collection and a proper VF x Tekken crossover game a la Fighters Megamix, as unrealistic as that would be at this point. I'm also very adamant with the fact that I'd like my Virtua Fighter 6 to not have any of the ethical issues that plagued SNK's City of the Wolves, even if that may be just as unrealistic. I'm going to put more time into all of the games I mentioned, and I'd love to catalogue these experiences as well, but in the meantime I do implore you to try out Virtua Fighter if for no reason other than to pay respects... and that base level 5 REVO is like, 20 bucks.
+
+As for Virtua Fighter itself, a lot of the criticism I see focuses on what it isn't, and it doesn't always feel like it's in a place of good faith. Being able to mash through the arcade ladder isn't exactly a flaw with the game if you don't want to learn it. If Virtua Fighter's choice is not to have lasers or fireballs, then that's its choice. It's also not a bad game just because it has a block button. I do think that VF could do more to make people care about its characters and world, and I'm hoping for the best with this new vision SEGA has to reintroduce their dormant IP to a new generation.
+
+The solution could potentially be right in front of us as well. It does seem that a Tekken / VF crossover is heavily requested and Harada does know about it, and it could also correct a future we almost got where a cancelled Dreamcast Tekken port would have featured Virtua Fighter guest characters, but maybe I'm just dreaming.
+
+In any case, I'd take my chances betting on Akira Yuki in Tekken 8 over a Waffle House DLC stage.
+
+**SOURCES**:
+
+[
+
+VIRTUA FIGHTER || CONTROLS
+
+Virtua Fighter character profiles, images, sprites, and more!
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/favicon-2.ico)CONTROLS
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/lever.png)
+
+](https://www.arcadequartermaster.com/vf1_controls.html?ref=adamlauture.com)
+
+[
+
+The History Of Movement In Tekken And The Lack Of “3D” In “3D Fighters”
+
+Tekken is the current running 3D fighting game to receive a new release, but how “3D” is Tekken actually? Not as much as players expect.
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/cropped-1-up-infinite-square-512-3-270x270.png)1UpInfiniteNay Holland
+
+![](file:///C:/Users/A2Adam-WIN10/Documents/Website/blog%20backup%201/posts/Virtua%20Insanity,%20or%20How%20I%20Feel%20About%203D%20Fighters%20As%20A%20Newcomer_files/3865c0c5b6a18bf18727e16b7db07846aee9aacb.jpg)
+
+](https://1upinfinite.org/tekken-movement-feature/?ref=adamlauture.com)

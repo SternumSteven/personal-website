@@ -6,52 +6,43 @@
 	<atom:link href="https://zone-builder.neocities.org/" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Thu, 04 Dec 2025 22:03:32 +0000
+Fri, 05 Dec 2025 01:40:23 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
 	<item>
-		<title>5. Addendum</title>
-		<description>This is a page I forgot to write about syntax and RSS descriptions!</description>
-		<link>https://zone-builder.neocities.org/posts/2021-05-08-5.-addendum.html</link>
+		<title>Toonami Rewind Whats Old Is New Again</title>
+		<description>Originally written on May 31, 2024.</description>
+		<link>https://zone-builder.neocities.org/posts/2024-05-31-toonami-rewind-whats-old-is-new-again.html</link>
 		<pubDate>
-			Sat, 08 May 2021 00:00:00 +0000
+			Fri, 31 May 2024 00:00:00 +0000
 		</pubDate>
 	</item>
 
 	<item>
-		<title>4. Hosting</title>
-		<description>This is a Markdown RSS description for the hosting page.</description>
-		<link>https://zone-builder.neocities.org/posts/2021-05-09-4.-hosting.html</link>
+		<title>Toonami Rewind A Failed Experiment</title>
+		<description>I’ve been watching Toonami since I was a child, and in some form or another I’ve watched Toonami’s current [as] incarnation since I was in 8th grade. To say that I’m surprised about the current state regarding Toonami Rewind would honestly be a lie, and I’m not even talking about current affairs.</description>
+		<link>https://zone-builder.neocities.org/posts/2024-12-21-toonami-rewind-a-failed-experiment.html</link>
 		<pubDate>
-			Sun, 09 May 2021 00:00:00 +0000
+			Sat, 21 Dec 2024 00:00:00 +0000
 		</pubDate>
 	</item>
 
 	<item>
-		<title>3. Theming</title>
-		<description>Zoner uses the same CSS class names and ids as Zonelets, so any Zonelets theme automatically works!</description>
-		<link>https://zone-builder.neocities.org/posts/2021-05-10-3.-theming.html</link>
+		<title>Virtua Insanity</title>
+		<description>Virtua Fighter's issue is that in the mainstream, it doesn't get nearly as much respect that I think it deserves.</description>
+		<link>https://zone-builder.neocities.org/posts/2025-09-23-virtua-insanity.html</link>
 		<pubDate>
-			Mon, 10 May 2021 00:00:00 +0000
+			Tue, 23 Sep 2025 00:00:00 +0000
 		</pubDate>
 	</item>
 
 	<item>
-		<title>2. Header Setup</title>
-		<description>Your header.md will traditionally serve as the navigation bar for the site. It should contain links to all the pages you'd like people to visit.</description>
-		<link>https://zone-builder.neocities.org/posts/2021-05-11-2.-header-setup.html</link>
+		<title>2026 Updates</title>
+		<description>Hey there, I’m currently writing this as I juggle… a lot. I honestly apologize for the lack of consistent updates. Life has been pretty hectic. I do hope however, that everyone has been okay during this holiday season.</description>
+		<link>https://zone-builder.neocities.org/posts/2025-12-04-2026-updates.html</link>
 		<pubDate>
-			Tue, 11 May 2021 00:00:00 +0000
-		</pubDate>
-	</item>
-
-	<item>
-		<title>1. Zone Structure</title>
-		<description>A Zone is just a folder containing all the data for Zoner to build your website.</description>
-		<link>https://zone-builder.neocities.org/posts/2021-05-12-1.-zone-structure.html</link>
-		<pubDate>
-			Wed, 12 May 2021 00:00:00 +0000
+			Thu, 04 Dec 2025 00:00:00 +0000
 		</pubDate>
 	</item>
 
