@@ -103,7 +103,9 @@
             <!--remove the "open" part to have this closed by default-->
             <details open>
                 <!--i like to include a last updated date for this part-->
-                <summary>status <time>11/27/25</time></summary>
+                <summary>status 
+                    <div data-ic-cdt-widget style="display:inline-block;border:1px solid #aaa;border-radius:8px;padding:10px;"><a href="https://www.inchcalculator.com/what-is-todays-date/" target="_blank">Today's Date:</a></div><script src="https://cdn.inchcalculator.com/e/current-date-widget.min.js" async defer></script>
+                </summary>
                 <ul>
                     <!--i don't think this is reeeally how you're supposed to use html lists, but we're just having fun here so it's ok-->
                     <li>reading:</li>
@@ -113,6 +115,8 @@
                     <li><script src="https://recentfm.rknight.me/now.js?u=SternumSteven&e🎧"></script></li>
                     <li>playing:</li>
                     <li><img src="https://steam-current-game.vercel.app/api/?steamids=76561198046344785"</li>
+
+                
                 </ul>
             </details>
         </section>
@@ -121,8 +125,11 @@
             <details open>
                 <summary>tag filters</summary>
                 <!--when you add new tags here, make sure to add them to your css as well so that the filters will work properly. careful not to make any typos...!-->
-                <label><input type="radio" id="kashcast" name="tag" checked>kashcast</label>
-                <label><input type="radio" id="guest profile" name="tag">#guest-profile</label>
+                <label><input type="radio" id="all" name="tag" checked>all</label>
+                <label><input type="radio" id="intro" name="tag">#intro</label>
+                <label><input type="radio" id="personal" name="tag">#personal</label>
+                <label><input type="radio" id="art" name="tag">#art</label>
+                <label><input type="radio" id="secret" name="tag">#secret</label>
             </details>
         </section>
         
@@ -131,104 +138,9 @@
         <!--each post should use the "article" element. set its class to "post", and add any tags that you use with spaces separating them. this is how it knows which posts to filter when you click the buttons above!-->
         <article class="post intro">
             <!--you can put your name at the top here, using a fake social media handle or just typing it normally. up to you!-->
-            <div class="post-header">@A2Adam <time>11/28/2025, 3:52am</time></div>
-            <!--remember to change the timestamp... i always forget to lol....-->
-
-            <h2>What IS the KashCast?</h2>
-            <p>Beginning in 2020, I created my podcast, "KashCast", which is meant to highlight creatives, their careers, and their passions. I've used this to talk to people across multiple disciplines, learn how their professions work, and I'll continue to use it to platform artists in the future.</p>
-            <p>Here's a <a href="https://anchor.fm/s/edac0b00/podcast/rss" target="_blank"> link</a> to my podcast's RSS feed.</p>
-            
-            <p>If you're ever interested in being a guest, please feel free to reach out! I'm interested in having people from all varieties.
-                You can find my email form in the about section of this website, or alternatively reach me at <a href="mailto:adamlauture@gmail.com" target="_blank"> my email</a> here.
-            </p>
-
-            <p>I'm currently working on a side show where guests can talk more about their interests, or a specific topic, instead of being shackled to a review segment.
-                When that is complete I will make a new post for that.
-            </p>
-            
-            <h3>Other Podcasts I've Been On:</h3>
-            <ul>
-                <li>Post Modern Art Podcast - Episode 68</li>
-                <li>Elwood City Limits - Episode 166</li>
-                <li>Elwood City Limits - Episode 195</li>
-            </ul>
-            
-            
-            <section class="tags">
-                <!--the tag section is optional, and you should put each tag inside of an <a> or <span> element! (that way they get styled correctly...)-->
-                <a href="#kashcast">#kashcast</a>
-                <!--using an id you made a tag for above will make it scroll up to the tag filter section so people can filter posts that way!-->
-            </section>
-        </article>
-        
-          <!--each post should use the "article" element. set its class to "post", and add any tags that you use with spaces separating them. this is how it knows which posts to filter when you click the buttons above!-->
-        <article class="post intro">
-            <!--you can put your name at the top here, using a fake social media handle or just typing it normally. up to you!-->
-            <div class="post-header">@A2Adam <time>11/28/2025, 3:52am</time></div>
-            <!--remember to change the timestamp... i always forget to lol....-->
-
-            <h2>Where To Watch / Listen to the Podcast:</h2>
-            <p>You can listen to the podcast on most listening platforms. Below is an embeded of a YouTube playlist that auto updates with new episodes, as well as a Spotify embeded player. I will try to move off Spotify in the future, though.</p>
-            
-
-            <p><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.5%;"><iframe src="https://www.youtube.com/embed/videoseries?list=PLiMdZPocKMjD7umCYmYzcvqtlfrKB8-B7" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 5px ridge #17326C;" allowfullscreen scrolling="no" referrerpolicy="strict-origin"></iframe></div></p>
-            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/3Erkj9DKvHb3JODqMZlr9j?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            
-            
-            <section class="tags">
-                <!--the tag section is optional, and you should put each tag inside of an <a> or <span> element! (that way they get styled correctly...)-->
-                <a href="#kashcast">#kashcast</a>
-                <!--using an id you made a tag for above will make it scroll up to the tag filter section so people can filter posts that way!-->
-            </section>
-        </article>
-
-
-                    <h2>How do I submit questions?</h2>
-            <p>More often than not there will be a post on my YouTube community page as well as my Bluesky, and potentially instagram. People can comment on any of these posts, or alternatively email me, with questions you have for the guest(s) I am talking to. reach me at <a href="mailto:adamlauture@gmail.com" target="_blank"> my email</a> here.</p>
-            <p>Here's a <a href="https://anchor.fm/s/edac0b00/podcast/rss" target="_blank"> link</a> to my podcast's RSS feed.</p>
-            
-            <p>There's no guarantee that I'll get to every question and I do reserve the right to skip questions that are crass, rude, or unproductive. Just use common sense when talking to people.
-            </p>
-
-            <h2>How can I support the show?</h2>
-            <p>At the moment, listening is more than enough. Good ratings on these platforms helps as well. Eventually I'll see if I can use a ko-fi to help in case people want to contribute directly.
-                If you want to support anyone though, please support my editor and creative partner Jay <a href="https://ko-fi.com/jpears" target="_blank"> here</a>.</p>
-
-
-            
-            <h3>Currently editing:</h3>
-            <ul>
-                <li>KashCast 28 - Nick Cruz (color designer on Kiff)</li>
-            </ul>
-
-             <h3>Potential Guests:</h3>
-            <ul>
-                <li>Amber Avara</li>
-                <li>Justin Sevakis</li>
-                <li>Marcy Bones</li>
-                <li>Sean Davis</li>
-            </ul>
-            
-            
-            <section class="tags">
-                <!--the tag section is optional, and you should put each tag inside of an <a> or <span> element! (that way they get styled correctly...)-->
-                <a href="#kashcast">#kashcast</a>
-                <!--using an id you made a tag for above will make it scroll up to the tag filter section so people can filter posts that way!-->
-            </section>
-        </article>
- 
-
-                <!--each post should use the "article" element. set its class to "post", and add any tags that you use with spaces separating them. this is how it knows which posts to filter when you click the buttons above!-->
-        <article class="post intro">
-            <!--you can put your name at the top here, using a fake social media handle or just typing it normally. up to you!-->
             <div class="post-header">@A2Adam <time>6/10/2025, 6:13pm</time></div>
             <!--remember to change the timestamp... i always forget to lol....-->
             
-        <article class="post intro">
-            <!--you can put your name at the top here, using a fake social media handle or just typing it normally. up to you!-->
-            <div class="post-header">@A2Adam <time>11/28/2025, 3:52am</time></div>
-            <!--remember to change the timestamp... i always forget to lol....-->
-
             <h2>What IS the KashCast?</h2>
             <p>Beginning in 2020, I created my podcast, "KashCast", which is meant to highlight creatives, their careers, and their passions. I've used this to talk to people across multiple disciplines, learn how their professions work, and I'll continue to use it to platform artists in the future.</p>
             <p>Here's a <a href="https://anchor.fm/s/edac0b00/podcast/rss" target="_blank"> link</a> to my podcast's RSS feed.</p>
@@ -248,20 +160,64 @@
                 <li>Elwood City Limits - Episode 195</li>
             </ul>
             
-            
             <section class="tags">
                 <!--the tag section is optional, and you should put each tag inside of an <a> or <span> element! (that way they get styled correctly...)-->
-                <a href="#kashcast">#kashcast</a>
+                <a href="#intro">#introduction</a>
                 <!--using an id you made a tag for above will make it scroll up to the tag filter section so people can filter posts that way!-->
             </section>
         </article>
         
-          <!--each post should use the "article" element. set its class to "post", and add any tags that you use with spaces separating them. this is how it knows which posts to filter when you click the buttons above!-->
+        <!--a simple art post! check my periwinkle template for making photo-set style posts...-->
+        <article class="post art">
+            <div class="post-header">@A2Adam <time>9/12/2021, 6:50pm</time></div>
+            <img src="images/JAY_SPOOKY.png" alt="A2Adam at the end of starry flowers">
+            
+            <section class="tags">
+                <a href="#art">#art</a><span>#jaypera</span>
+            </section>
+            
+        </article>
+        
+        <!--this post demonstrates how readmores are set up, it's just a specially styled details/summary block-->
+        <article class="post secret">
+            <div class="post-header">@A2Adam <time>7/22/2021, 6:02pm</time></div>
+            <p>i just learned that you can hide post content behind a read more, like this:</p>
+            
+            <details class="readmore">
+                <summary>read more</summary>
+                
+                <img src="images/photo3.png" alt="A2Adam sweeping" loading="lazy">
+                <p>nothing to see here!</p>
+                
+            </details>
+            
+            <section class="tags">
+                <a href="#secret">#secret</a>
+            </section>
+            
+        </article>
+        
+        <!--you don't have to add the tag links at the bottom of the post for it to show up in the tag filters! as long as you remember to put the tag id in the article class-->
+        <article class="post personal">
+            <div class="post-header">@A2Adam <time>7/22/2021, 5:32pm</time></div>
+            
+            <p>it's been so long since i posted here... um, i have a boyfriend now! <a href="/templates/periwinkle/index.html">his blog</a> is on neocities, too ^^</p>
+            
+        </article>
+        
+        <!--one last simple post. i always copypaste whatever i posted last when i write a new post, so i made a variety you can do that with too!-->
         <article class="post intro">
-            <!--you can put your name at the top here, using a fake social media handle or just typing it normally. up to you!-->
-            <div class="post-header">@A2Adam <time>11/28/2025, 3:52am</time></div>
-            <!--remember to change the timestamp... i always forget to lol....-->
-
+            <div class="post-header">@A2Adam <time>10/31/2015, 11:27am</time></div>
+            
+            <p>Test post! This site is actively in development and I'm currently trying to bring over the content from my site on ghost.io to here.
+                If you want to visit that site instead, please feel free to check over <a href="https://www.adamlauture.com/">here. </a></p>
+            </p>
+            
+            <img src="images/icon1.png" alt="A2Adam, confused">
+            
+            <section class="tags">
+                <a href="#intro">#introduction</a>
+            </section>
         </article>
         
         <!--this button brings you back to the top of the page, like it says-->
