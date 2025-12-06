@@ -370,7 +370,7 @@ main {
 .tagged:has(#intro:checked) article[class~="intro"],
 .tagged:has(#personal:checked) article[class~="personal"],
 .tagged:has(#kashcast:checked) article[class~="kashcast"],
-.tagged:has(#guest_profile:checked) article[class~="guest_profile"],
+.tagged:has(#guest_profile:checked) article[class~="guest profile"],
 .tagged:has(#extra_kash:checked) article[class~="extra kash"],
 .tagged:has(#secret:checked) article[class~="secret"],
 .tagged:has(#art:checked) article[class~="art"] {display: inline-block;}
