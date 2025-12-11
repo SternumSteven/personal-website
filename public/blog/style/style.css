@@ -3,8 +3,8 @@
    "how to change link color." */
 
 body {
-  background-color: #574250;
-  background-image: url('../images/bg_purplePaper.png');
+  background-color: #102E6B;
+  background-image: url('/public/images/tile.png');
 	background-position: top;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", serif;
@@ -17,7 +17,7 @@ p {
 }
 
 hr {
-  border: solid #997e9c;
+  border: solid #375BAC;
   border-width: 2px 0 0 0;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   font-family: Tahoma, Geneva, sans-serif;
-  color: #453b63;
+  color: #0E123C;
 }
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
@@ -67,9 +67,9 @@ h1, h2, h3, h4, h5 {
   margin: 3em auto;
   width: 90%;
 	max-width: 700px;
-	background-color: #bba8bd;
-  color: #151515; 
-  outline-color: #a19cb1;
+	background-color: #414bbb;
+  color: #0E123C; 
+  outline-color: #6ca7C0;
   outline-style: ridge;
   outline-width: 4px;
   outline-offset: 0;
@@ -82,9 +82,9 @@ h1, h2, h3, h4, h5 {
 
 /*HEADER STYLE*/
 #header {
-  background-color: #453b63;
+  background-color: #102E6B;
   padding: 0 5%;
-  border-color: #a19cb1;
+  border-color: #6ca7C0;
   border-style: ridge;
   border-width: 0 0 4px 0;
 }
