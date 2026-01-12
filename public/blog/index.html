@@ -1,66 +1,136 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Zoner</title>
-<link rel="icon" href="./images/favicon.png" type="image/x-icon">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<link href="./style/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body>
-<div id="container">
-<header id="header">
+<html lang="en">
+  <head>
+    <link rel="preload" href="/blog/assets/styles/normalize.css" as="style">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A place for Adam Lauture to write editorials, blog / journal entries, and updates.">
+    <title>Welcome to Strawberry Starter!</title>
 
+    <!--cache busting-->
+    
+    <meta http-equiv="Cache-Control" content="max-age=0, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+
+    <!--opengraph cards-->
+    <meta property="og:title" content="A2Adam's Blog">
+    <meta property="og:description" content="Welcome to Strawberry Starter!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://a2adam.neocities.org/">
+    <meta property="og:image" content="https://a2adam.neocities.org/social.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="A2Adam's Blog">
+    <meta name="twitter:description" content="Welcome to Strawberry Starter!">
+    <meta name="twitter:image" content="https://a2adam.neocities.org/social.png">
+
+    <!--styles-->
+    <link rel="stylesheet" href="/blog/assets/styles/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/styles/style.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/styles/themes/ocean.css" type="text/css">
+    <link rel="icon" sizes="16x16 24x24 32x32 64x64" href="/blog/favicon.ico">
+  </head>
+  <body>
+    <nav>
+        <ol>
+            <li><a href="/blog/">Home</a></li>
+            
+                <li><a href="/blog/info/all_posts/">All Posts</a></li>
+            
+                <li><a href="/blog/info/about/">About</a></li>
+            
+        </ol>
+        <ol>
+    <li>
+        <a href="/blog/tags/updates/">#Updates</a>
+    </li>
+</ol>
+    </nav>
+    <main>
+        <header>
+            <h1>Welcome to Strawberry Starter!</h1>
+            
+            
+        </header>
+        <p>A simple, quick blog template for <a href="https://www.11ty.dev/">11ty</a>!
+<img src="/blog/assets/images/berrysprite.png" alt="pixel art of a strawberry"></p>
+<h2>Features:</h2>
 <ul>
-<li><a href="./index.html">Home</a></li>
-<li><a href="./archive.html">Archive</a></li>
-<li><a href="./about.html">About</a></li>
-</ul>
-<!-- -->
+<li>Write locally, on your computer!
 <ul>
-<li><a href="./feed.xml">RSS</a></li>
+<li>All you need is a terminal &amp; your favorite text editor</li>
+<li>See your changes in realtime with a local web server!</li>
 </ul>
-<hr>
-</header>
-<article id="content">
-<img style="max-width: 308px; max-height: 308px;" src="./images/ZonerLogo.png" alt="Zoner Logo">
-<h1>Welcome to Zoner!</h1>
-<p><strong>Zoner</strong> is a drag and drop static site generator for making <a href="https://zonelets.net/">Zonelets</a>-style blogs!</p>
-<h2>Why?</h2>
-<p>I wanted to start writing my own blog, but I couldn't figure out how to use other static site generators like <a href="https://jekyllrb.com/">Jekyll</a>. I found <a href="https://zonelets.net/">Zonelets</a> and it seemed like the perfect choice, but after making websites for years I didn't want to mess with html or javascript files in my off-time. So I made this little console application to generate Zonelet blogs from <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> files.</p>
-<p>This allows you to keep your source separate from your built site, in case you want source control for versioning of your writing. It also allows for a true static website, so older browsers without javascript and people with slow internet can still read it at blazing fast speeds.</p>
-<p>But mainly this tool exists for: making your Zonelet more maintainable, writing blog posts quicker and easier, and keeping the site style consistent across pages.</p>
-<h2>How?</h2>
-<p><img src="./images/ZonerHowTo.png" alt="Zoner Pipeline"></p>
-<h2>Features?</h2>
+</li>
+<li>No HTML experience necessary!
 <ul>
-<li>A super simple workflow for making beautiful blogs.</li>
-<li>HTML optimized for screen readers.</li>
-<li>Automatic <a href="https://en.wikipedia.org/wiki/RSS">RSS</a> feed generation.</li>
-<li>Disqus comment support.</li>
-<li>Backwards compatability with existing Zonelets.</li>
-<li>Open source, <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a>, easy to extend or chain into existing workflows.</li>
+<li>Posts are written in Markdown, a really intuitive format</li>
+<li>Only edit HTML if you really want to</li>
 </ul>
-<h2>Where can I get it?</h2>
-<p>You can download it from <a href="https://ryantrawick.itch.io/zoner">itch.io</a>!</p>
-<h2>Recent Posts:</h2>
-<!-- An <archive> tag with a count attribute will show that count of the most recent posts! For a "more posts" button add a more attribute with your archive link. -->
-<p><div id="postlistdiv">
+</li>
+<li>One-command upload to <a href="https://neocities.org/">Neocities</a>
 <ul>
-<li><a href="./posts/2026-01-11-analogue-anxieties.html">2026-01-11 » Analogue Anxieties</a></li>
-<li><a href="./posts/2025-12-10-tricking-out-anime-an-interview-with-stu-levy-of-tokyopop.html">2025-12-10 » Tricking Out Anime An Interview With Stu Levy Of Tokyopop</a></li>
-<li><a href="./posts/2025-12-04-2026-updates.html">2025-12-04 » 2026 Updates</a></li>
-<li><a href="./posts/2025-09-23-virtua-insanity.html">2025-09-23 » Virtua Insanity</a></li>
-<li class="moreposts"><a href="./archive.html">» more posts</a></li>
+<li>Upload directly to a site or to a subdirectory</li>
 </ul>
-</div></p>
-<!-- The "more posts" button will not appear if there are fewer or equal posts to the count attribute. -->
-<p><small>Zoner is not affiliated with the official Zonelets. Consider it software fan art.</small></p>
-</article>
-<footer id="footer">
-<hr>
-<p>This blog is written by <a href="https://twitter.com/aynik_co">Ryan Trawick</a>, built with <a href="https://sr.ht/%7Eryantrawick/zoner/">Zoner</a>, and hosted by <a href="https://neocities.org/">Neocities</a>!</p>
-</footer>
-</div>
+</li>
+</ul>
+<h3>That sounds awesome!</h3>
+<p>I think so, too! If you want to get started, you can read the <a href="posts/example_posts/installation">installation guide</a>, but feel free to click around and explore instead. If you're wondering why this site is structured like a blog, it's because it <em>is</em> the template! Neat, huh?</p>
+
+        
+            <h2>Latest Posts:</h2>
+            <ol id="latest_posts">
+                
+            
+                <li>
+                    <a href="/blog/posts/articles/analogue-anxieties/">11/01/2026 - Analogue Anxieties - How Nostalgia Motivates the Return to Dedicated Devices</a>
+                </li>
+            
+                <li>
+                    <a href="/blog/posts/updates/2026-update/">04/12/2025 - 2026 Updates</a>
+                </li>
+            
+                <li>
+                    <a href="/blog/posts/interviews/Tricking Out Anime_ An Interview With Stu Levy Of Tokyopop/">12/10/2025 - Tricking Out Anime - An Interview with Stu Levy of Tokyopop</a>
+                </li>
+            
+                <li>
+                    <a href="/blog/posts/articles/toonami-rewind-2/">21/12/2024 - Toonami Rewind - A Failed Experiment</a>
+                </li>
+            
+                <li>
+                    <a href="/blog/posts/articles/toonami-rewind-1/">31/05/2024 - Toonami Rewind - What's Old Is New Again</a>
+                </li>
+            
+            </ol>
+        
+    </main>
+    
+    
+    
+
+    
+
+    <footer>
+        <p>
+            A2Adam's Blog is written by 
+            
+                <a href="https://a2adam.neocities.org">Adam Lauture</a>
+                
+        </p>
+        
+            <address>Contact: <a href="mailto:adamlauture@gmail.com">adamlauture@gmail.com</a></address>
+        
+        <aside>
+            <p>
+                <time class="lastupdate" datetime="Jan 12, 2026">Last update: Jan 12, 2026</time>
+                <a href="/blog/feed.xml">RSS</a>
+            </p>
+            <a href="#">back to top</a>
+        </aside>
+    </footer>
 </body>
 </html>
