@@ -29,7 +29,7 @@ function headerHTML() {
       <header>
 
         <div class="header-content">
-	        <div class="header-title">Adam Lauture</div>
+	        <div class="header-title">Adam Lauture - A2Adam</div>
 	        
         	
         </div>
