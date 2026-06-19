@@ -58,9 +58,9 @@ function headerHTML() {
         	<li>
         	
               	<details>
-                <summary>Submenu</summary>
+                <summary>More Podcast Info</summary>
                 <ul>
-                  <li><a href="/page-a">Page A</a></li>
+                  <li><a href="/public/guest-profiles/index_gp.html">Guest Profiles</a></li>
                   <li><a href="/page-b">Page B</a></li>
                   <li><a href="/page-c">Page C</a></li>
                   <li><a href="/page-d">Page D</a></li>
