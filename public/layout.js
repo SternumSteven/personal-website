@@ -76,8 +76,7 @@ function headerHTML() {
                     <p>pronouns: he/they</p>
                     <p>age: 27</p>
                    <p>New York based creative. This site hosts my art, my writing, resources, and general life updates. Art by Jay Pastrana.</p>
-                    <p>site: <a href="/index.html">[your site here]</a></p>
-                    <p>carrd: <a href="https://a2adam.carrd.co/">[here]</a></p>
+                    <p><a href="https://a2adam.neocities.org/">caard:</a></p>
         </div>
         
         <div class="sidebar-section">
