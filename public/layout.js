@@ -72,9 +72,12 @@ function headerHTML() {
         </nav>
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
+          <div class="sidebar-title">About</div>
+                    <p>pronouns: he/they</p>
+                    <p>age: 27</p>
+                   <p>New York based creative. This site hosts my art, my writing, resources, and general life updates. Art by Jay Pastrana.</p>
+                    <p>site: <a href="/index.html">[your site here]</a></p>
+                    <p>carrd: <a href="https://a2adam.carrd.co/">[here]</a></p>
         </div>
         
         <div class="sidebar-section">
