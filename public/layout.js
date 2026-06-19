@@ -54,7 +54,7 @@ function headerHTML() {
             <li><a href="/resources">Resources</a></li>
             <li><a href="/art">Art</a></li>
             <li><a href="/videos">Videos</a></li>
-            <li><a href="/podcast">Podcast</a></li>
+            <li><a href="/podcast.html">Podcast</a></li>
         	<li>
         	
               	<details>
