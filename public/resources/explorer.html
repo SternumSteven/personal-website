@@ -305,7 +305,7 @@ const BASE = location.origin + ROOT;                    // f.eks. "https://oppga
       entries = await fetchListing(currentPath);
     }catch(err){
       console.error(err);
-      alert("Klarte ikke å lese mappen. Sjekk at 'Options +Indexes' er aktivert og at ingen index-fil overstyrer listevisning.\n\nFeil: " + err.message);
+      alert("Failed to read the folder. Check that 'Options +Indexes' is enabled and that no index file overrides list view.\n\nFeil: " + err.message);
       sumEl.textContent = "Ingen data.";
       return;
     }
