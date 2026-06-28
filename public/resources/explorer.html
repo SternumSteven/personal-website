@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Filutforsker</title>
+<title>File Explorer</title>
 <style>
   :root{
     --bg:#0b0f14; --card:#141a22; --card2:#0f141b; --text:#e9eef5; --muted:#9fb0c3; --accent:#6fb3ff; --ok:#40c463; --warn:#ffcc66;
@@ -54,18 +54,18 @@
       <div class="crumbs" id="breadcrumbs"></div>
     </div>
     <div class="tools">
-      <input id="search" type="search" placeholder="Søk i denne mappen…" />
-      <button class="btn" id="upBtn" title="Opp ett nivå">Opp</button>
+      <input id="search" type="search" placeholder="Search this folder..." />
+      <button class="btn" id="upBtn" title="Up one level">Opp</button>
     </div>
   </header>
 
   <div class="panel list" id="list">
     <div class="row head">
       <div class="muted">#</div>
-      <div>Navn</div>
-      <div class="muted">Størrelse</div>
-      <div class="muted">Endret</div>
-      <div class="muted" title="Kopier lenke">URL</div>
+      <div>Name</div>
+      <div class="muted">Size</div>
+      <div class="muted">Modified</div>
+      <div class="muted" title="Copy link">URL</div>
     </div>
     <!-- rows injected here -->
   </div>
