@@ -1,29 +1,371 @@
 <!doctype html>
-<html>
+<html lang=en>
 
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1.0">
 
-<title>Gallery</title>
+<title>Example Gallery</title>
 
-<link rel=stylesheet href=gallery.css>
-<script defer src=gallery.js></script>
+<link rel=stylesheet href="gallery.css?t=12">
+<script defer src="gallery.js?t=12"></script>
+<script defer src="example.js?t=12"></script>
 
 <script>
-  window.GALLERY = {
-    grid_gap: 10
-  }
+GALLERY = {
+  masonry: 0,
+  
+  //masonry_direction: 'both',
+  //max_width: 'calc(95vw - 195px - 2em)',
+  //grid_card_layout: ['image'],
+}
 </script>
 
-<body>
+<style name=deviant-art>
+
+  /* I really like how this looks, maybe for a personal gallery... */ /*
+  .grid:not(.view) video,
+  .grid:not(.view) iframe,
+  .grid:not(.view) img {
+    box-sizing: border-box;
+    border: 1em ridge tan;
+    padding: .5em;
+    background-color: white;
+    border-radius: .125em;
+  } */ 
+
+  body {
+    margin:0;
+    font: 9pt verdana;
+    background-color: #D3DFD1;
+  }
+
+  header {
+    background: #D3DFD1 linear-gradient(0deg,
+      rgba( 96,116,101, 1),
+      rgba( 64, 81, 71, .95));
+    color: white;
+    line-height: 42px;
+    border-bottom: 3px groove #d3dfd1;
+    text-align: left;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+  
+  main {
+    padding: 0 .5em 0 0;
+    display: grid;
+    grid-template-columns: 170px minmax(180px,1fr);
+    min-height: calc(100vh - 9.5em);
+    background-color: #ccd9c8;
+  }
+  
+  [name=gallery] {
+    padding-top: 1em;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+    background-color: #ccd9c8;
+    
+  }
+  [name=gallery].view {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    background-color: #d7e4d2;
+    
+  }
+  
+  footer {
+    background-color: #4D625D;
+    color: white;
+    line-height: 1.5;
+    padding: 2em 1em;
+    text-align: center;
+  }
+  
+  #nav {
+    background-color: #D3DFD1;
+    border-right: 1px solid #9FB1A3;
+    overflow: hidden auto;
+    max-height: 1720px;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-top: .25em;
+    display: none;
+  }
+  #nav.visible {
+    display: block;
+  }
+  #nav h2 {
+    color: #2C3635;
+    font-size: 1.1em;
+    font-family: tahoma,verdana,sans-serif;
+    margin: 5px 0 2px 0;
+    padding: 0 0 2px 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  #nav ul {
+    list-style-type: none;
+    line-height: 1.25;
+    margin:0;
+    padding: 0 0 4px 0;
+  }
+  #nav a {
+    display: block;
+    color: #337287;
+    padding: 4px 15px 4px 8px;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+  #nav a:hover,
+  #nav a:focus {
+    background-color: #C2CCC2;
+  }
+  
+  #nav .avoid a {
+    text-decoration: line-through red;
+  }
+  #nav .find a {
+    color: #B0623E;
+    font-weight: bold;
+  }  
+  
+  
+  
+  .search-form input {
+    border: .125em solid #586f5c;
+  }
+  .search-form [type=submit] {
+    background: linear-gradient(180deg,rgba(234,244,50,1),rgba(197,215,61,1));
+    color: #4C645E;
+    text-shadow: 0 1px 0 #E4F093;
+    border-radius: .25em;
+  }
+
+  .search-form [type=submit]:focus,
+  .search-form [type=submit]:hover {
+    background: rgba(222,234,93,1);
+    border-radius: .25em;
+  }
+
+  .search-form [type=submit]:active {
+    background: linear-gradient(180deg,rgba(178,203,33,1),rgba(224,239,27,1));
+    border-radius: .25em;
+  }
+  
+  @media (max-width: 380px) {
+    main {
+      display: initial;
+      border: 1px solid transparent;
+    }
+    #nav {
+      max-height: 100px;
+    }
+  }
+  
+  .screen-reader {
+    height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    font-size: 1rem !important;
+  }
+  
+  .screen-reader:focus {
+    height: auto !important;
+  }
+  
+  .navigation.bottom {
+    display: none;
+  }
+  
+  #comments {
+    display: none;
+    padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #comments textarea {
+    display: block;
+    font: inherit;
+    width: 500px;
+    resize: none;
+    padding: .5em;
+    max-width: 100%;
+  }
+  .view + #comments {
+    display: block;
+  }
+  
+</style>
+
+
+<style>
+  .da-toggle {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font: inherit;
+  }
+</style>
+
+<header name=deviant-art>
+<h1>Me<em>Te</em><strong>Mo</strong>'s Example Gallery</h1>
+</header>
+
+<button class=da-toggle onclick="toggleNoda()">Toggle Deviant Art</button>
+
+<main>
+
+<nav id=nav name=deviant-art>
+<a href=#main-content class=screen-reader>Skip to main content</a>
+<h2>Category</h2>
+<ul></ul></nav>
+
+<div id=main-content name=gallery>The gallery needs Javascript to load! If you can see this, you may have blocked Javascript.</div>
+
+<aside id=comments name=deviant-art>
+<h2>Comments</h2>
+
+<textarea>This doesn't actually work :)</textarea>
+
+<p>No comments!</p>
+
+</aside>
+
+</main>
+
+<footer name=deviant-art>A rando footer 'cause I never know what to put in here.</footer>
 
 <pre name=archive hidden>
 
-myfirstimage.png
-  # tag1, tag2, tag3
-  title: Image Title
-  caption: This is an image
+https://www.youtube.com/embed/Qir2YJGJOIE?si=rfg5tjFMRc2fn-U9
+  isYoutube: true
+  title: bob and wade's friend freaking out
+  caption: lol, got from <a href="https://youtu.be/Qir2YJGJOIE?si=z4yvF4oe6b-qVsCR">Kenzo on YouTube</a>.
+  # youtube
+
+https://files.catbox.moe/cybb43.mp4
+  title: an example video
+  downloadName: smol_chungus.mp4
+  # chungus
+  caption: I downloaded this from <a href="https://sample-videos.com/">sample-videos.com</a>.
+
+gifs/fish/aquarium.gif
+  # fish,tag
+  caption:
+    This is a GIF image of a fish tank. The fish don't move, so I fear they may be dead, but the clam is breathing, so it's probably just eating supper.
+    Nom nom nom fish breakfast.
+  title: Fishy fish
+
+gifs/fish/aquarium2.gif
+  # fish,tag
+
+gifs/fish/aquarium3.gif
+  # fish
+  
+gifs/balloons.gif
+  # red, yellow, blue, green
+
+gifs/bike.gif
+  # yellow
+
+gifs/birdbath.gif
+  # birb, blue, yellow, green
+
+gifs/cartooncarousel.gif
+  # blue, red, pink
+
+gifs/changingflowers.gif
+  # orange, pink, green, blue
+
+gifs/chemset.gif
+  # blue, green
+
+gifs/clock.gif
+  # brown
+
+gifs/dancin.gif
+  # black, white
+
+gifs/doge.webp
+  # black, white
+
+gifs/eraser.webp
+  # pink
+
+gifs/fish.gif
+  # fish, yellow
+
+gifs/fishbowl.gif
+  # fish, blue, orange
+
+gifs/grandfatherclock.gif
+  # brown
+
+gifs/lantern.gif
+  # orange, yellow
+
+gifs/maracacactus.gif
+  # green, yellow
+
+gifs/pinkysnowglobe.gif
+  # pink, blue
+
+gifs/pocketwatch.gif
+  # grey
+
+gifs/pond.gif
+  # fish, blue
+
+gifs/prettyskies.webp
+  # pink, blue, purple
+
+gifs/radish.gif
+  # yellow
+
+gifs/ramennoodles.gif
+  # purple, green
+  detail: retro ramen noodles
+
+gifs/scatcat.webp
+  # cats, grey
+  caption: meow meow meow meow meow Meow Meow Meow Meow
+
+gifs/scooter.gif
+  # yellow
+
+gifs/ship.gif
+  # fish, brown
+
+gifs/snowglobe.gif
+  # green
+
+gifs/spidey.gif
+  # red, blue
+
+gifs/spongebobdance.gif
+  # yellow, fish
+
+gifs/sunflowers.gif
+  # yellow
+
+gifs/tpcat.gif
+  # pink, purple, cats
+
+gifs/train.gif
+  # red, green
+
+gifs/wavyflowerbush.gif
+  # flowers, green
+
+gifs/wineoclock.gif
+  # pink, yellow, green, 🍷
 
 </pre>
-
-<div name=gallery>The gallery needs JavaScript to load! If you can see this, you may have blocked JavaScript.</div>
