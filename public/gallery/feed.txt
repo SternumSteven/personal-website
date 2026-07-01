@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Your RSS Feed Title</title>
+  <description>This is the description of your RSS feed</description>
+  <link>https://a2adam.neocities.org/gallery</link>
+  <lastBuildDate>
+    Wed, 01 Jul 2026 16:27:57 GMT
+  </lastBuildDate>
+  <ttl>20000</ttl>
+  
+  <item>
+  <title>The title of your item</title>
+  <description>
+    An arbitrary description of your item, for example the content of your new article, or a short excerpt.
+  </description>
+  <link>https://rssguide.neocities.org/the_article.html</link>
+  <pubDate>
+    Wed, 01 Jul 2026 16:27:57 GMT
+  </pubDate>
+ </item>
+</channel>
+</rss>
