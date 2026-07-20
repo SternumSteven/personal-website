@@ -1,0 +1,172 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "dfe895596bd50a96ad0c31d101886b2c"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "56480d0eafb59e6b58d53231b877b1e3"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "e19cced6341d15e84c3d202e5e386440"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "51db36ac9bfaaa60d4fb7a583c143c99"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "c2232aa7558e9517946129d2a1b8c770"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "12d66f2b2cce51311dd05cef039befb6"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "d167697bcc673e5b8139fbdc5b9f5240"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/adam-lauture",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/adam-lauture/index.html",
+        "type": "file",
+        "md5": "fa52da518ff95de2939a7575a3a19d22"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "20a1e69b092ce44a29f440643f8916e8"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "f2635c29d0efb0594f14dc993aecaf4a"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "1c863b01af3ade4d977f2e291f6e69d3"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/logo.png",
+        "type": "file",
+        "md5": "96ea4d7a9257f8e623d51df52d96dcda"
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/logo-lg.png",
+        "type": "file",
+        "md5": "480b0b00a5a418d1b66259102d9736d4"
+    },
+    {
+        "path": "/media/website/responsive/logo-md.png",
+        "type": "file",
+        "md5": "480b0b00a5a418d1b66259102d9736d4"
+    },
+    {
+        "path": "/media/website/responsive/logo-sm.png",
+        "type": "file",
+        "md5": "eafddcf27be958aaff64c7dc5885762d"
+    },
+    {
+        "path": "/media/website/responsive/logo-xs.png",
+        "type": "file",
+        "md5": "257cfd151e80d99e7588e2ac36923c96"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "7d787159b56e7a4f01281622ef608ec5"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "976aedb0e592d7a8d362a1d9a43405f7"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "51a7bcec43fa1ef0366100d5c2edbe75"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "8625dc5f2d73cd528f0e791585be695c"
+    },
+    {
+        "path": "test.html",
+        "type": "file",
+        "md5": "9b4d4e995d91cd1ab22d3634cdfd6512"
+    }
+]

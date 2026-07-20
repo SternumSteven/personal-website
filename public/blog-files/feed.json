@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "blog",
+    "description": "",
+    "home_page_url": "https://a2adam.neocities.org/blog",
+    "feed_url": "https://a2adam.neocities.org/blog/feed.json",
+    "user_comment": "",
+    "icon": "https://a2adam.neocities.org/blog/media/website/logo.png",
+    "author": {
+        "name": "Adam Lauture"
+    },
+    "items": [
+        {
+            "id": "https://a2adam.neocities.org/blog/test.html",
+            "url": "https://a2adam.neocities.org/blog/test.html",
+            "title": "Test",
+            "summary": "This is a test.",
+            "content_html": "\n  <p>\n    This is a test.\n  </p>",
+            "author": {
+                "name": "Adam Lauture"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-20T16:10:05-04:00",
+            "date_modified": "2026-07-20T16:10:05-04:00"
+        }
+    ]
+}

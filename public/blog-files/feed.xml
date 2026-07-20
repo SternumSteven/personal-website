@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>blog</title>
+    <link href="https://a2adam.neocities.org/blog/feed.xml" rel="self" />
+    <link href="https://a2adam.neocities.org/blog" />
+    <updated>2026-07-20T16:10:05-04:00</updated>
+    <author>
+        <name>Adam Lauture</name>
+    </author>
+    <id>https://a2adam.neocities.org/blog</id>
+
+    <entry>
+        <title>Test</title>
+        <author>
+            <name>Adam Lauture</name>
+        </author>
+        <link href="https://a2adam.neocities.org/blog/test.html"/>
+        <id>https://a2adam.neocities.org/blog/test.html</id>
+
+        <updated>2026-07-20T16:10:05-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    This is a test.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    This is a test.
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
