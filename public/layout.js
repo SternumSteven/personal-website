@@ -29,8 +29,27 @@ function headerHTML() {
       <header>
 
         <div class="header-content">
-	        <div class="header-title">Adam Lauture - A2Adam</div>
+	        <div class="header-title">Website Title</div>
 	        
+	        <!-- NAVIGATION -->
+	        <nav>
+	          <ul>
+	            <li><a href="/">Home</a></li>
+	            <li><a href="/page1">Page 1</a></li>
+	            <li><a href="/page2">Page 2</a></li>
+	            <li><a href="/page3">Page 3</a></li>
+	            <li>
+	                <strong>Submenu (hover to show)</strong>
+	                <ul>
+	                  <li><a href="/page-a">Page A</a></li>
+	                  <li><a href="/page-b">Page B</a></li>
+	                  <li><a href="/page-c">Page C</a></li>
+	                  <li><a href="/page-d">Page D</a></li>
+	                  <li><a href="/page-e">Page E</a></li>
+	                </ul>
+	            </li>
+	          </ul>
+	        </nav>
         	
         </div>
       </header>
@@ -44,39 +63,10 @@ function headerHTML() {
       <aside class="left-sidebar">
 	  
         
-        <!-- NAVIGATION -->
-        <nav>
-          <div class="sidebar-title">Navigation</div>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/resources">Resources</a></li>
-            <li><a href="/art">Art</a></li>
-            <li><a href="/videos">Videos</a></li>
-            <li><a href="/podcast.html">Podcast</a></li>
-        	<li>
-        	
-              	<details>
-                <summary>More Podcast Info</summary>
-                <ul>
-                  <li><a href="/guest-profiles/index_gp.html">Guest Profiles</a></li>
-                  <li><a href="/page-b">Page B</a></li>
-                  <li><a href="/page-c">Page C</a></li>
-                  <li><a href="/page-d">Page D</a></li>
-                  <li><a href="/page-e">Page E</a></li>
-                </ul>
-                </details>
-            </li>
-          </ul>
-        </nav>
-        
         <div class="sidebar-section">
-          <div class="sidebar-title">About</div>
-                    <p>pronouns: he/they</p>
-                    <p>age: 27</p>
-                   <p>New York based creative. This site hosts my art, my writing, resources, and general life updates. Art by Jay Pastrana.</p>
-                    <p><a href="https://a2adam.neocities.org/">caard:</a></p>
+          <div class="sidebar-title">Section Title</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
         </div>
         
         <div class="sidebar-section">
@@ -109,7 +99,7 @@ function headerHTML() {
         
         <div class="sidebar-section">
           <div class="sidebar-title">Section Title</div>
-          <img class="full-width-image" src="https://picsum.photos/id/16/1000/400">
+          <img class="full-width-image" src="https://picsum.photos/id/10/1000/400">
         </div>
         
         <div class="sidebar-section">
