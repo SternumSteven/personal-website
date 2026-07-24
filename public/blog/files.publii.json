@@ -2,7 +2,27 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "dfe895596bd50a96ad0c31d101886b2c"
+        "md5": "68df4e3699e2f2656d267e89d95dc12f"
+    },
+    {
+        "path": "about-me",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/about-me/index.html",
+        "type": "file",
+        "md5": "8b912e34cac7203782913705535b4833"
+    },
+    {
+        "path": "analogue-anxieties-how-nostalgia-motivates-the-return-to-dedicated-devices",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/analogue-anxieties-how-nostalgia-motivates-the-return-to-dedicated-devices/index.html",
+        "type": "file",
+        "md5": "d37b07ed72d5571fb736e7703a43f9a8"
     },
     {
         "path": "assets",
@@ -27,7 +47,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "e19cced6341d15e84c3d202e5e386440"
+        "md5": "98547f02339b9f8bb37a8f4f5d62001d"
     },
     {
         "path": "assets/dynamic",
@@ -82,27 +102,197 @@
     {
         "path": "/authors/adam-lauture/index.html",
         "type": "file",
-        "md5": "fa52da518ff95de2939a7575a3a19d22"
+        "md5": "0ee814982821121f24511dfef22d4f53"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "20a1e69b092ce44a29f440643f8916e8"
+        "md5": "d92c40cd32bc0be87e9e25c7e86a5529"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "f2635c29d0efb0594f14dc993aecaf4a"
+        "md5": "f7ad6c678c59ac7dcbba83d84cea5887"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1c863b01af3ade4d977f2e291f6e69d3"
+        "md5": "7c3a8eebe9942acdfd3a5dfe5cf7c843"
     },
     {
         "path": "media",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/2/SGCAM_20260724_012712942_preview.jpeg",
+        "type": "file",
+        "md5": "9c78088f20272cf7f11af27a6dadc8d6"
+    },
+    {
+        "path": "media/posts/2/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/2/responsive/SGCAM_20260724_012712942_preview-lg.jpeg",
+        "type": "file",
+        "md5": "5cbc7913af2e196de14d2be5a01f059c"
+    },
+    {
+        "path": "/media/posts/2/responsive/SGCAM_20260724_012712942_preview-md.jpeg",
+        "type": "file",
+        "md5": "8e19b9fc8f1402d8b22e73bbcf526f86"
+    },
+    {
+        "path": "/media/posts/2/responsive/SGCAM_20260724_012712942_preview-sm.jpeg",
+        "type": "file",
+        "md5": "b803ddf527cb2055c5993baed5c5ca38"
+    },
+    {
+        "path": "/media/posts/2/responsive/SGCAM_20260724_012712942_preview-xs.jpeg",
+        "type": "file",
+        "md5": "a0ae597651dd6ffcbc449f1c6ad230d7"
+    },
+    {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/PXL_20260516_071528316.RAW-01.COVER.jpg",
+        "type": "file",
+        "md5": "75bb6b1c2b3a886b94025b3eb7c43331"
+    },
+    {
+        "path": "media/posts/3/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20260516_071528316.RAW-01.COVER-lg.jpg",
+        "type": "file",
+        "md5": "9f0e223d91e5a63570197eef1c75cda1"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20260516_071528316.RAW-01.COVER-md.jpg",
+        "type": "file",
+        "md5": "80979724abadd36540d733a31250e8f0"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20260516_071528316.RAW-01.COVER-sm.jpg",
+        "type": "file",
+        "md5": "7f2ae55ef64d744eeb4906468398105d"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20260516_071528316.RAW-01.COVER-xs.jpg",
+        "type": "file",
+        "md5": "d28b7031e5d6c35c1923d4bd0ff01fc1"
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/images.steamusercontent.jpg",
+        "type": "file",
+        "md5": "0ea560cd983113c6f0323e9ceddbe5c5"
+    },
+    {
+        "path": "media/posts/4/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/responsive/images.steamusercontent-lg.jpg",
+        "type": "file",
+        "md5": "3a5be2793ff7fd9d51c03a341d34eab6"
+    },
+    {
+        "path": "/media/posts/4/responsive/images.steamusercontent-md.jpg",
+        "type": "file",
+        "md5": "0815d6965b14a59a6fdaa5416a942759"
+    },
+    {
+        "path": "/media/posts/4/responsive/images.steamusercontent-sm.jpg",
+        "type": "file",
+        "md5": "e87d9a66d5ecb4982baf89a8f9c34a23"
+    },
+    {
+        "path": "/media/posts/4/responsive/images.steamusercontent-xs.jpg",
+        "type": "file",
+        "md5": "4dcadaf031a74c584e87eca881e2ed5e"
+    },
+    {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/retronick_smallbanner_2-793425193-w-620-3-lg.jpg",
+        "type": "file",
+        "md5": "774dde2ae4d3283c5a65021ba6e12b42"
+    },
+    {
+        "path": "/media/posts/5/responsive/retronick_smallbanner_2-793425193-w-620-3-md.jpg",
+        "type": "file",
+        "md5": "774dde2ae4d3283c5a65021ba6e12b42"
+    },
+    {
+        "path": "/media/posts/5/responsive/retronick_smallbanner_2-793425193-w-620-3-sm.jpg",
+        "type": "file",
+        "md5": "d0f4f7f3a2b54283093690614ef32531"
+    },
+    {
+        "path": "/media/posts/5/responsive/retronick_smallbanner_2-793425193-w-620-3-xs.jpg",
+        "type": "file",
+        "md5": "18f61dc9d97058a6bdd9ca3b0c7f41b4"
+    },
+    {
+        "path": "/media/posts/5/responsive/toonami-toonami-rewind-promo-may-30-2024-youtube-0-0-18-jpeg-lg.jpg",
+        "type": "file",
+        "md5": "d6eeb66317fb03e748fa22009b15a4ae"
+    },
+    {
+        "path": "/media/posts/5/responsive/toonami-toonami-rewind-promo-may-30-2024-youtube-0-0-18-jpeg-md.jpg",
+        "type": "file",
+        "md5": "38a3de584821c568ad5a67f6bad28fad"
+    },
+    {
+        "path": "/media/posts/5/responsive/toonami-toonami-rewind-promo-may-30-2024-youtube-0-0-18-jpeg-sm.jpg",
+        "type": "file",
+        "md5": "e7ec94e03f14938a27c04408aab42bb3"
+    },
+    {
+        "path": "/media/posts/5/responsive/toonami-toonami-rewind-promo-may-30-2024-youtube-0-0-18-jpeg-xs.jpg",
+        "type": "file",
+        "md5": "3a72483a259ff1d0feb21307242c92f4"
+    },
+    {
+        "path": "/media/posts/5/retronick_smallbanner_2-793425193-w-620-3.jpg",
+        "type": "file",
+        "md5": "e1a67e50fa4f503b9a1f0416510e1ef2"
+    },
+    {
+        "path": "/media/posts/5/toonami-toonami-rewind-promo-may-30-2024-youtube-0-0-18-jpeg.jpg",
+        "type": "file",
+        "md5": "03fecabd33526a8ea5ea02e37adcad10"
     },
     {
         "path": "media/website",
@@ -140,6 +330,16 @@
         "md5": "257cfd151e80d99e7588e2ac36923c96"
     },
     {
+        "path": "my-relationship-with-gaming-and-how-their-accessibility-played-a-key-role",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/my-relationship-with-gaming-and-how-their-accessibility-played-a-key-role/index.html",
+        "type": "file",
+        "md5": "f7db4f24eb90f9f90a67de07b88d2f81"
+    },
+    {
         "path": "robots.txt",
         "type": "file",
         "md5": "7d787159b56e7a4f01281622ef608ec5"
@@ -147,7 +347,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "976aedb0e592d7a8d362a1d9a43405f7"
+        "md5": "9da584a11ec4e5f77cdb8f7eb4c2d3eb"
     },
     {
         "path": "sitemap.xsl",
@@ -160,13 +360,108 @@
         "md5": false
     },
     {
-        "path": "/tags/index.html",
-        "type": "file",
-        "md5": "8625dc5f2d73cd528f0e791585be695c"
+        "path": "tags/2024",
+        "type": "directory",
+        "md5": false
     },
     {
-        "path": "test.html",
+        "path": "/tags/2024/index.html",
         "type": "file",
-        "md5": "9b4d4e995d91cd1ab22d3634cdfd6512"
+        "md5": "0179863667a616cd4abc876d0dd0b7ba"
+    },
+    {
+        "path": "tags/2025",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/2025/index.html",
+        "type": "file",
+        "md5": "de4aae11df415239551cde4abf40f04e"
+    },
+    {
+        "path": "tags/2026",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/2026/index.html",
+        "type": "file",
+        "md5": "26ddbe9993e289a4ca09826ebd53f806"
+    },
+    {
+        "path": "tags/featured",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/featured/index.html",
+        "type": "file",
+        "md5": "69f3da7c89ddb46123397888732dade0"
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "8f0323a571a5e27508fc02b4db770859"
+    },
+    {
+        "path": "tags/interview",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/interview/index.html",
+        "type": "file",
+        "md5": "702a1bae28f07813b9e3c3afccbce645"
+    },
+    {
+        "path": "tags/video-games",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/video-games/index.html",
+        "type": "file",
+        "md5": "0a5b9cedcb3a4bbce09e157e295bde88"
+    },
+    {
+        "path": "toonami-rewind-a-failed-experiment",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/toonami-rewind-a-failed-experiment/index.html",
+        "type": "file",
+        "md5": "0b9b5472a280e0f4fcc9e062ae65d01c"
+    },
+    {
+        "path": "toonami-rewind-whats-old-is-new-again-again",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/toonami-rewind-whats-old-is-new-again-again/index.html",
+        "type": "file",
+        "md5": "2d090143ea712dcfc1fced35ddf44064"
+    },
+    {
+        "path": "tricking-out-anime-an-interview-with-stu-levy-of-tokyopop",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tricking-out-anime-an-interview-with-stu-levy-of-tokyopop/index.html",
+        "type": "file",
+        "md5": "ca0686bf79931b8bd5988b772d3b062b"
+    },
+    {
+        "path": "virtua-insanity-or-how-i-feel-about-3d-fighters-as-a-newcomer",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/virtua-insanity-or-how-i-feel-about-3d-fighters-as-a-newcomer/index.html",
+        "type": "file",
+        "md5": "679171c7fcc40356e6650a498779d910"
     }
 ]
